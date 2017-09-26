@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="test">
+	<test name="testcase1" parallel="tests">
+		<classes>
+			<class name="com.testing.TestCase1"></class>
+		</classes>
+	</test>
+
+	<test name="testcase2">
+		<classes>
+			<class name="com.testing.TestCase2"></class>
+		</classes>
+	</test>
+</suite>

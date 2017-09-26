@@ -53,7 +53,7 @@ public class TestCase1 {
 		System.setProperty("webdriver.chrome.driver", "/home/home/Workspace/Drivers/chromedriver");
 		System.setProperty("webdriver.gecko.driver", "/home/home/Workspace/Drivers/geckodriver");
 		browser = new FirefoxDriver();
-		browser.manage().window().maximize();
+		//browser.manage().window().maximize();
 	}
 
 	@AfterClass

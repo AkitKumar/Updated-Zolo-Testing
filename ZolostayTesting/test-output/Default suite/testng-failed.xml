@@ -6,8 +6,8 @@
       <class name="com.testing.TestCase2">
         <methods>
           <include name="afterClass"/>
+          <include name="testCase2"/>
           <include name="beforeClass"/>
-          <include name="testing"/>
         </methods>
       </class> <!-- com.testing.TestCase2 -->
     </classes>
