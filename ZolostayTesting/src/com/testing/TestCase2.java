@@ -47,12 +47,13 @@ public class TestCase2 {
 		Thread.sleep(3000);
 		browser.findElement(By.xpath(getPath("requestBed"))).click();
 		// enter date and selecting sharing type
+		Thread.Sleep(3000);
 		browser.findElement(By.xpath(getPath("inputDate"))).clear();
 		browser.findElement(By.xpath(getPath("inputDate"))).sendKeys(getData("paymentDate"));
 		browser.findElement(By.xpath(getPath(getData("sharingPreference")))).click();
 		browser.findElement(By.xpath(getPath("Proccedtopay"))).click();
 		// creating SoftAssert object
-
+	Thread.Sleep(3000);
 		// getting Name and Phone number from payment
 		System.out.println("tesname" + browser.findElement(By.xpath(getPath("TestName"))).getAttribute("value"));
 		asert.assertEquals(browser.findElement(By.xpath(getPath("TestName"))).getAttribute("value").trim(),
